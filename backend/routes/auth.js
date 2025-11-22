@@ -8,8 +8,8 @@ const nodemailer = require('nodemailer');
 
 // Email transporter setup
 let transporter = null;
-EMAIL_USER='devstatic014@gmail.com';
-EMAIL_PASS='nbzzanfsirtcrgmj'
+EMAIL_USER='YOUR_EMAIL';
+EMAIL_PASS='YOUR_APP_PASS'
 
 if (EMAIL_USER && EMAIL_PASS) {
   transporter = nodemailer.createTransport({
